@@ -46,9 +46,14 @@ struct AddBookView: View {
                         dismiss()
                     }
                 }
+                .disabled(formInvalid())
             }
             .navigationTitle("Add Book")
         }
+    }
+
+    func formInvalid() -> Bool {
+        title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || author.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || genre.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 }
 
