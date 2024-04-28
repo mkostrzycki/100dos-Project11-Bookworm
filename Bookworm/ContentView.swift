@@ -34,6 +34,9 @@ struct ContentView: View {
                         }
                     }
                 }
+                .navigationDestination(for: Book.self) { book in
+                    DetailBookView(book: book)
+                }
             }
             .navigationTitle("Bookworm")
             .toolbar {
