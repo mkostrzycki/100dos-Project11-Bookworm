@@ -14,6 +14,7 @@
 		E1C61F6D2BDEE695002B02E4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C61F6C2BDEE695002B02E4 /* Book.swift */; };
 		E1C61F6F2BDEE80D002B02E4 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C61F6E2BDEE80D002B02E4 /* AddBookView.swift */; };
 		E1C61F712BDEEF9F002B02E4 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C61F702BDEEF9F002B02E4 /* RatingView.swift */; };
+		E1C61F732BDEF4AE002B02E4 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C61F722BDEF4AE002B02E4 /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E1C61F6C2BDEE695002B02E4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		E1C61F6E2BDEE80D002B02E4 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		E1C61F702BDEEF9F002B02E4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		E1C61F722BDEF4AE002B02E4 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E1C61F6C2BDEE695002B02E4 /* Book.swift */,
 				E1C61F6E2BDEE80D002B02E4 /* AddBookView.swift */,
 				E1C61F702BDEEF9F002B02E4 /* RatingView.swift */,
+				E1C61F722BDEF4AE002B02E4 /* EmojiRatingView.swift */,
 				E103A3942BDA991A00B7F8DE /* Assets.xcassets */,
 				E103A3962BDA991A00B7F8DE /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 				E103A3912BDA991900B7F8DE /* BookwormApp.swift in Sources */,
 				E1C61F6D2BDEE695002B02E4 /* Book.swift in Sources */,
 				E1C61F712BDEEF9F002B02E4 /* RatingView.swift in Sources */,
+				E1C61F732BDEF4AE002B02E4 /* EmojiRatingView.swift in Sources */,
 				E1C61F6F2BDEE80D002B02E4 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
